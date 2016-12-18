@@ -46,8 +46,6 @@ import mobile.gsd.com.gsd.FeedDetailsActivity;
 import mobile.gsd.com.gsd.R;
 import mobile.gsd.com.gsd.Util.FeedItem;
 
-//https://jsonblob.com/b246722d-c0ba-11e6-871b-cdcddd8becc7
-
 public class StoreFragment extends Fragment {
 
     private ArrayList<FeedItem> feedList = null;
@@ -84,7 +82,9 @@ public class StoreFragment extends Fragment {
         mAdView.loadAd(adRequest);
 
         progressbar = (ProgressBar) v.findViewById(R.id.progressBar);
-        String url = "http://jsonblob.com/api/jsonBlob/b246722d-c0ba-11e6-871b-cdcddd8becc7";
+        //For the dummy, we are going to use the IT Cutties feed. For using your json, we need to follow the format below if you are going to use jsonblog.com
+        //http://jsonblob.com/api/jsonBlob/(insert url id here)
+        String url = "http://www.itcuties.com/feed/";
         new DownloadFilesTask().execute(url);
 
         return v;
