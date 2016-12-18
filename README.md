@@ -13,3 +13,5 @@ This application also uses a JSON file reader. In many cases, this is uses to re
 
 Creating a JSON File https://jsonblob.com/new
 JSON API USAGE https://jsonblob.com/api
+
+I WILL NOT BE UPDATING THIS, ANY CHANGES I MAKE ON MY OWN TERMS ARE FOR MY BENITFITS =) but you are welcomed to contact me on google hangouts for any questions or possible bugs/changes we should incorperate.
