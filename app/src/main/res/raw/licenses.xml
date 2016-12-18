@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<notices>
+    <notice>
+        <name>Google SDK</name>
+        <url>https://developers.google.com/apis-explorer/#p/</url>
+        <copyright>Copyright 2015 Google INC</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Google Play Services</name>
+        <url>https://developers.google.com/apis-explorer/#p/</url>
+        <copyright>Copyright 2015 Google INC</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Android Support Libraries</name>
+        <copyright>Copyright 2007, The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>CustomTabs</name>
+        <url>https://github.com/GoogleChrome/custom-tabs-client/blob/master/LICENSE</url>
+        <copyright>Copyright Google 2004, January</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>MaterialDrawer</name>
+        <url>https://github.com/mikepenz/MaterialDrawer</url>
+        <copyright>Copyright 2016 Mike Penz</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Cardview</name>
+        <copyright>Copyright Google 2004, January</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>License Dialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>Copyright 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+</notices>

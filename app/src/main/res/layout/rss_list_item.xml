@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobile.gsd.com.gsd.Layout.AnimatedView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/headline"
+                android:text="Headline"
+                android:drawableStart="@mipmap/ic_launcher"
+                android:padding="3dp"
+                android:fontFamily="sans-serif-bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/text"
+                android:text="body"
+                android:padding="3dp"
+                android:fontFamily="sans-serif-bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:textColor="@color/colorPrimary"
+                android:autoLink="web|email" />
+
+            <TextView
+                android:id="@+id/date"
+                android:text="date"
+                android:padding="3dp"
+                android:fontFamily="sans-serif-bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:typeface="sans"
+                android:textColor="@color/accent" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</mobile.gsd.com.gsd.Layout.AnimatedView>

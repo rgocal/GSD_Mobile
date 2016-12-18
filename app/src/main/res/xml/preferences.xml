@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:layout="@layout/footer"/>
+
+    <Preference
+        android:summary="GSD Mobile is a product of GocalSD. This application allows followers to engage the GSD Homesite in Mobile form.">
+    </Preference>
+
+    <Preference
+        android:title="GSD Mobile"
+        android:summary="@string/app_version">
+    </Preference>
+
+</PreferenceScreen>

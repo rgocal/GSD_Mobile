@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6593943218195718/7861137189"
+                android:minHeight="0dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_below="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/toolbar"
+                android:id="@+id/panel_one"
+                android:gravity="end">
+
+                <TextView
+                    android:text="Android Software Development"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:drawableStart="@mipmap/ic_launcher2"
+                    android:drawablePadding="4dp"
+                    android:padding="4dp"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:text="Binding Intelligence Over Native Xenomorph "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:textSize="12sp"
+                    android:textColor="@color/md_blue_400"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="2dp" />
+
+                <TextView
+                    android:text="2010-2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:layout_weight="1"
+                    android:textColor="@color/md_blue_400"
+                    android:paddingEnd="12dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_blue_400"
+                android:id="@+id/panel_two"
+                android:layout_below="@+id/panel_one"
+                android:layout_alignParentStart="true"
+                android:padding="16dp"
+                android:gravity="end">
+
+                <TextView
+                    android:text="Custom Roms -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:textColor="@color/toolbar" />
+
+                <TextView
+                    android:text="Applications -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textColor="@color/toolbar"/>
+
+                <TextView
+                    android:text="Utilities -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:textColor="@color/toolbar"/>
+
+                <TextView
+                    android:text="Design Revamps -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:textColor="@color/toolbar"/>
+
+                <TextView
+                    android:text="Material Design -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:textColor="@color/toolbar"/>
+
+                <TextView
+                    android:text="Device Unlocking -"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14"
+                    android:textColor="@color/toolbar"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/panel_two"
+                android:id="@+id/panel_three"
+                android:background="@color/toolbar"
+                android:gravity="end"
+                android:padding="16dp">
+
+                <TextView
+                    android:text="Mission Statement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/md_blue_400"
+                    android:paddingTop="18dp" />
+
+                <TextView
+                    android:text="To provide an inovative experience and apps for your Android Device and to provide the support any android user desires to have."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17"
+                    android:padding="4dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/panel_three"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/panel_four"
+                android:background="@color/md_blue_400">
+
+                <TextView
+                    android:text="The Community"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/toolbar"
+                    android:paddingTop="18dp"
+                    android:paddingStart="16dp" />
+
+                <TextView
+                    android:text="@string/community_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView18"
+                    android:textColor="@color/toolbar"
+                    android:gravity="start"
+                    android:padding="12dp" />
+
+                <Button
+                    android:text="Like on Facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f_button"
+                    android:backgroundTint="@color/toolbar"
+                    android:textColor="@color/md_blue_400"
+                    android:drawableStart="@mipmap/ic_book" />
+
+                <Button
+                    android:text="Circle On Google Plus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/g_button"
+                    android:textColor="@color/md_red_400"
+                    android:backgroundTint="@color/toolbar"
+                    android:drawableStart="@mipmap/ic_plus" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginStart="15dp" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:gravity="center">
+
+                <TextView
+                    android:text="@string/qoute_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="225dp"
+            android:layout_marginStart="15dp"
+            android:layout_height="95dp"
+            android:layout_width="135dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:gravity="center">
+
+                <TextView
+                    android:text="@string/qoute_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

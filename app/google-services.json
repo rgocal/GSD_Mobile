@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "874430376385",
+    "firebase_url": "https://gsd-mobile.firebaseio.com",
+    "project_id": "gsd-mobile",
+    "storage_bucket": "gsd-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874430376385:android:c03983b3ae5cdaff",
+        "android_client_info": {
+          "package_name": "mobile.gsd.com.gsd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874430376385-9uclu38u02sjm09qli48p0lg8j8v4u6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.gsd.com.gsd",
+            "certificate_hash": "8FF57EBD366B19834AFC46AF7BF697B3EF15494D"
+          }
+        },
+        {
+          "client_id": "874430376385-i7c1kktro2an1b1on3sbfeqcdbif2rkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJYrCfvO3vBbv9o3Hi4bMVw6EGlXLuh5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874430376385-i7c1kktro2an1b1on3sbfeqcdbif2rkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

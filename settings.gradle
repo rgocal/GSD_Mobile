@@ -1,0 +1,2 @@
+include ':app', ':shared'
+project(':shared').projectDir = new File('app/libs/shared')

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6593943218195718/7861137189"
+        android:minHeight="0dp" />
+
+        <ListView
+            android:id="@+id/custom_list"
+            android:layout_below="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="1dp"
+            android:focusable="false"
+            android:listSelector="?attr/selectableItemBackground"
+            android:animateLayoutChanges="true"
+            android:paddingTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    </RelativeLayout>

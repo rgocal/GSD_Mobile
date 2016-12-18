@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/grey"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Copyright 2017 Gocal Software Development"
+            android:id="@+id/textView2"
+            android:textSize="10sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView"
+            android:drawableStart="@mipmap/ic_nx"
+            android:gravity="center|start"
+            android:padding="4dp" />
+    </LinearLayout>
+
+</RelativeLayout>
