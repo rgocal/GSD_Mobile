@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "posts": [
+    {
+      "id": 1,
+      "type": "post",
+      "url": "http://halo.bungie.net/images/News/WeeklyUpdate/4stoshsrocket_ComTeamSatStoshU.jpg",
+      "status": "publish",
+      "title": "Demo (Blam)",
+      "content": "<p>Hello JSON! THis is where you would write some stuff...</p>\n<p>Yes you need to follow the json format...</p>",
+      "date": "December 18 2016",
+      "attachments": [
+        {
+          "url": "http://halo.bungie.net/images/News/WeeklyUpdate/4stoshsrocket_ComTeamSatStoshU.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
